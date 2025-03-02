@@ -3,7 +3,8 @@
 
 def main():
     str_val = "Welcome to IEEE\n"
-    for i in range(100):
+    l=len(str_val)
+    for i in range(l):
         print(str_val[i], end="")
     print()
 
