@@ -2,8 +2,8 @@
 
 def main():
     even = 0
-    for i in range(21):
-        even *= 2
+    for i in range(20):
+        even += 2
         print(even, end="\t")
     print()
 
