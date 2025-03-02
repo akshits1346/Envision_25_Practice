@@ -2,11 +2,11 @@
 
 def sort(a, b):
     for i in range(b):
-        for j in range(1, b):
-            if a[i] > a[j]:
-                temp = a[i]
-                a[i] = a[j]
-                a[j] = temp
+        for j in range(0, b-i-1):
+            if a[j] > a[j+1]:
+                temp = a[j]
+                a[j] = a[j+1]
+                a[j+1] = temp
 
 
 def main():
