@@ -3,7 +3,7 @@
 def sum_list(numbers):
     total = 0  # Placeholder for sum
     for num in numbers:
-        total = num  # Incorrect accumulation
+        total += num  # Incorrect accumulation
     return total
 
 
