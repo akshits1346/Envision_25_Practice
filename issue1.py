@@ -4,7 +4,7 @@ def reverse(string):
     rev = ""  # Placeholder for reversed string
     size = len(string)
     for i in range(size):
-        rev = string[size]
+        rev = rev + string[size-i-1]
     return rev
 
 
